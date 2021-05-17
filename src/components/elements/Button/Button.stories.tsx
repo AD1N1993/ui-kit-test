@@ -1,5 +1,10 @@
+// Button.stories.js
+
 import React from 'react';
 
-import  Button  from '../Button';
+import  Button  from './Button';
 
-export const Primary: React.VFC<{}> = () => <Button />;
+export default {
+  title: 'Components/Button',
+  component: Button,
+}

@@ -2,7 +2,7 @@ import React from "react"
 
 const Button = () => {
   return (
-    <button>Button</button>
+    <button onClick={()=>alert("s")}>Button</button>
   )
 }
 
